@@ -2,6 +2,17 @@
     "name": "pipedev/laravel-paystack",
     "description": "A simple laravel package for laravel 7 & 8 that gives php developers to paystack api",
     "license": "MIT",
+    "keywords": [
+        "php",
+        "github",
+        "Muritala David",
+        "paystack",
+        "paystack.co",
+        "laravel",
+        "rave-flutterwave",
+        "laravel 7",
+        "laravel 8"
+    ],
     "authors": [
         {
             "name": "Muritala David",
@@ -11,20 +22,21 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "pipeDev\\laravelPaystack\\": "src/",
-            "App\\": "app/"
+            "App\\": "app/",
+            "PipeDev\\LaravelPaystack\\": "packages/PipeDev/LaravelPaystack/src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "pipeDev\\laravelPaystack\\LaravelPaystackServiceProvider"
+                "PipeDev\\LaravelPaystack\\LaravelPaystackServiceProvider"
             ],
             "aliases": {
+                "LaravelPaystack": "PipeDev\\LaravelPaystack\\Facades\\LaravelPaystackFacade"
             }
         }
     },
     "require-dev": {
-        "laravel/framework": "8.x-dev"
+        "laravel/framework": "^8.40"
     }
 }

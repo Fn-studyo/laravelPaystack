@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ff7e27f5b1cc70d0c42d930ad28aa9b",
+    "content-hash": "b80d03deb1cca8b3391e7da4bde0696f",
     "packages": [],
     "packages-dev": [
         {
@@ -426,12 +426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "afc67cf94bee6ef344374dc0a5a0b535011d7a8e"
+                "reference": "014443366257e4fa34071882e2b04217274a3ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/afc67cf94bee6ef344374dc0a5a0b535011d7a8e",
-                "reference": "afc67cf94bee6ef344374dc0a5a0b535011d7a8e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/014443366257e4fa34071882e2b04217274a3ec9",
+                "reference": "014443366257e4fa34071882e2b04217274a3ec9",
                 "shasum": ""
             },
             "require": {
@@ -587,7 +587,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-06-21T14:40:12+00:00"
+            "time": "2021-06-22T13:41:32+00:00"
         },
         {
             "name": "league/commonmark",
@@ -4078,9 +4078,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "laravel/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
