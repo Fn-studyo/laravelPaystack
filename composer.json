@@ -1,0 +1,30 @@
+{
+    "name": "pipedev/laravel-paystack",
+    "description": "A simple laravel package for laravel 7 & 8 that gives php developers to paystack api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muritala David",
+            "email": "davmuri1414@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "pipeDev\\laravelPaystack\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "pipeDev\\laravelPaystack\\LaravelPaystackServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "8.x-dev"
+    }
+}
